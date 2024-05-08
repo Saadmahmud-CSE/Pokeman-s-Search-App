@@ -47,9 +47,6 @@ const getPokemon = async () => {
 };
 
 const resetDisplay = () => {
-  const sprite = document.getElementById('sprite');
-  if (sprite) sprite.remove();
-
   pokemonName.textContent = '';
   pokemonID.textContent = '';
   types.innerHTML = '';
